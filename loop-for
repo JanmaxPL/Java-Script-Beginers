@@ -1,0 +1,25 @@
+'use: strict';
+
+
+// Tablica (Array) zawierająca kilka danych:
+
+const jonasA =
+    [
+        'Jonas',
+        'Schmedtmann',
+        2037 - 1991,
+        'teacher',
+        ['Michael', 'Peter', 'Steven'],
+    ];
+
+// Chcemy wyświetlić każdą z tych danych w osobnej lini:
+
+for (let i = 0; i < jonasA.length; i++) {   // zamiast jonasA można użyć liczby, ale taki zapis umożliwia dynamiczny dostsowanie się do wielkości tablicy
+    console.log(jonasA[i]);
+}
+
+// Jeśli chceilibyśmy poznać typ zmiennych:
+
+for (let i = 0; i < jonasA.length; i++) {
+    console.log(typeof jonasA[i]);
+}
