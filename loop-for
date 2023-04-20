@@ -23,3 +23,14 @@ for (let i = 0; i < jonasA.length; i++) {   // zamiast jonasA można użyć licz
 for (let i = 0; i < jonasA.length; i++) {
     console.log(typeof jonasA[i]);
 }
+
+// Petle for możemy także użyć do uzupełniania danymi tablic, na podstawie innych tablic:
+
+const urodzenie = [1934, 1999, 1942, 1984, 1994, 2004];
+const wiek = [];
+
+for (let i = 0; i < urodzenie.length; i++) {
+    wiek[i] = 2023 - urodzenie[i];
+}
+
+console.log(wiek);
