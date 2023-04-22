@@ -34,3 +34,18 @@ for (let i = 0; i < urodzenie.length; i++) {
 }
 
 console.log(wiek);
+
+// ----------------------------------------------------------
+// Czasem warto zastosować pętle w pętli:
+
+for (let i = 1; i < 6; i++) {
+    console.log(`-------------Seria ćwiczeń ${i}----------`);
+    for (let j = 1; j < 10; j++) {
+        console.log(`pompeczka x${j}`);
+    }
+    for (let k = 1; k < 7; k++) {
+        console.log(`przysiad x${k}`);
+    }
+};
+
+// ----------------------------------------------------------
